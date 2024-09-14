@@ -11,14 +11,20 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_dashboard"
-        android:name="com.example.hello.ui.dashboard.ContactsFragment"
-        android:label="Dashboard"
+        android:id="@+id/navigation_contacts"
+        android:name="com.example.hello.ui.contacts.ContactsFragment"
+        android:label="Contacts"
         tools:layout="@layout/fragment_contacts" />
 
     <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="com.example.hello.ui.notifications.DiscoverFragment"
-        android:label="Notifications"
-        tools:layout="@layout/fragment_notifications" />
+        android:id="@+id/navigation_discover"
+        android:name="com.example.hello.ui.discover.DiscoverFragment"
+        android:label="Discover"
+        tools:layout="@layout/fragment_discover" />
+
+    <fragment
+        android:id="@+id/navigation_mine"
+        android:name="com.example.hello.ui.discover.MineFragment"
+        android:label="Mine"
+        tools:layout="@layout/fragment_mine" />
 </navigation>

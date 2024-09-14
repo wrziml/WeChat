@@ -12,5 +12,8 @@
         android:id="@+id/navigation_discover"
         android:icon="@drawable/ic_launcher_foreground"
         android:title="发现" />
-
+    <item
+        android:id="@+id/navigation_mine"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="我" />
 </menu>
